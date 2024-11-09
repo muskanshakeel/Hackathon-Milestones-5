@@ -1,0 +1,131 @@
+/* Styling form and resume sections with Classic Navy and Soft Gray color palette */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin: 20px;
+    padding: 0;
+    background-color: #ECF0F1; /* Off-White background */
+}
+
+form {
+    margin: auto;
+    background-color: #BDC3C7; /* Soft Gray for form background */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    max-width: 600px;
+}
+
+h1 {
+    text-align: center;
+    color: #2C3E50; /* Navy for main headers */
+}
+
+fieldset {
+    border: 2px solid #BDC3C7; /* Soft Gray for fieldset border */
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    background-color: #ECF0F1; /* Off-White for fieldset background */
+}
+
+legend {
+    font-weight: bold;
+    text-align: left;
+    color: #2C3E50; /* Navy for legend text */
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+    color: #2C3E50; /* Navy for label text */
+}
+
+input, textarea {
+    margin-top: 4px;
+    padding: 8px;
+    width: calc(100% - 1px);
+    border: 1px solid #BDC3C7; /* Soft Gray border for inputs */
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #ECF0F1; /* Off-White for input background */
+    color: #2C3E50; /* Navy for input text */
+}
+
+input:focus, textarea:focus {
+    border-color: #3498DB; /* Light Blue for focused input */
+    outline: none;
+}
+
+button {
+    display: block;
+    width: 100%;
+    background-color: #2C3E50; /* Navy for button background */
+    color: white;
+    border: none;
+    border-radius: 4px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 10px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color:#5b6c77; /* Light Blue on hover */
+    color: white;
+}
+
+#resume-display {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    border: 2px solid #BDC3C7; /* Soft Gray for resume display border */
+    border-radius: 8px;
+    background-color: #ECF0F1; /* Off-White for resume display background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#resume-display h2 {
+    color: #2C3E50; /* Navy for resume section headers */
+}
+
+#resume-display p {
+    color: #2C3E50; /* Navy for paragraph text */
+}
+
+/* Additional elements styling with Classic Navy and Soft Gray tones */
+
+hr {
+    border: 1px solid #BDC3C7; /* Soft Gray for horizontal rules */
+    margin: 20px 0;
+}
+
+a {
+    color: #3498DB; /* Light Blue for links */
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2C3E50; /* Navy on hover for links */
+    text-decoration: underline;
+}
+
+/* Background colors for different sections */
+
+section.header {
+    background-color: #BDC3C7; /* Soft Gray for section header background */
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+section.footer {
+    background-color: #ECF0F1; /* Off-White for footer background */
+    padding: 15px;
+    border-radius: 8px;
+    margin-top: 20px;
+    text-align: center;
+    color: #2C3E50; /* Navy for footer text */
+}
